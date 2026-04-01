@@ -68,11 +68,30 @@ The code is still spaghetti and needs a lot of refactoring.
 
 ## Bug Reporting
 
-If you find any bugs, please report it by submitting an issue on our [issue page](https://github.com/adileo/squirreldisk/issues) with a detailed explanation. Giving some screenshots would also be very helpful.
+If you find a bug, open a GitHub issue using the bug report form:
+
+- fork issue tracker: [pcoletsos/squirreldisk/issues](https://github.com/pcoletsos/squirreldisk/issues)
+- upstream issue tracker: [adileo/squirreldisk/issues](https://github.com/adileo/squirreldisk/issues)
+
+Include reproduction steps, operating system, version, and screenshots/logs when possible.
 
 ## Feature Request
 
-You can also submit a feature request on our [issue page](https://github.com/adileo/squirreldisk/issues) or [discussions](https://github.com/adileo/squirreldisk/discussions) and we will try to implement it as soon as possible.
+Submit feature requests on the fork issue tracker with the feature request form:
+
+- [pcoletsos/squirreldisk/issues](https://github.com/pcoletsos/squirreldisk/issues)
+
+Use [discussions](https://github.com/adileo/squirreldisk/discussions) for open-ended ideas.
+
+## Contributing
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for the canonical contribution workflow:
+
+- issue-first with milestone assignment (`Backlog` fallback)
+- branch naming and PR title conventions
+- required checks and local validation commands
+
+GitHub is the live source of truth for issue/milestone/release state.
 
 ## Contributions
 
