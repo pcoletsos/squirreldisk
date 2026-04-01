@@ -1,0 +1,9 @@
+# Primary ownership
+* @pcoletsos
+
+# Workflow and policy
+/.github/ @pcoletsos
+
+# App surfaces
+/src/ @pcoletsos
+/src-tauri/ @pcoletsos

@@ -52,7 +52,7 @@ pub fn start(
         .args(paths_to_scan)
         .spawn()
         .expect("Failed to spawn sidecar");
-    
+
     *state.0.lock().unwrap() = Some(child);
 
     // unlisten to the event using the `id` returned on the `listen_global` function

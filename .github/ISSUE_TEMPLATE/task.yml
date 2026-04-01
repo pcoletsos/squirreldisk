@@ -1,0 +1,30 @@
+name: Task
+description: Internal maintenance, process, or tooling task
+title: "chore(<scope>): <short task summary>"
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for non-feature, non-bug operational work.
+  - type: input
+    id: summary
+    attributes:
+      label: Task summary
+      placeholder: What needs to be done?
+    validations:
+      required: true
+  - type: textarea
+    id: outcomes
+    attributes:
+      label: Expected outcomes
+      placeholder: What does done look like?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      placeholder: List concrete checks or results.
+    validations:
+      required: true
